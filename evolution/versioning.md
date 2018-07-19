@@ -2,7 +2,7 @@
 
 > _The fundamental principle is that you can’t break existing clients, because you don’t know what they implement, and you don’t control them. In doing so, you need to turn a backwards-incompatible change into a compatible one._
 >
-> _– _[_Mark Nottingham_](https://www.mnot.net/blog/2011/10/25/web_api_versioning_smackdown)
+> _–_ [_Mark Nottingham_](https://www.mnot.net/blog/2011/10/25/web_api_versioning_smackdown)
 
 Any change to an API **MUST NOT** break existing clients.
 
@@ -21,7 +21,7 @@ A change **MUST NOT** affect **existing** resource identifiers \(name / URI\). F
 
 > _The reason to make a real REST API is to get evolvability … a "v1" is a .... to your API customers, indicating RPC/HTTP \(not REST\)_
 >
-> _– _[_Roy T. Fielding_](https://twitter.com/fielding/status/376835835670167552)
+> _–_ [_Roy T. Fielding_](https://twitter.com/fielding/status/376835835670167552)
 
 #### Example
 
@@ -49,13 +49,13 @@ If the media type conveys the version parameter, the version parameter **SHOULD*
 
 Media type _before_ a breaking change:
 
-```
+```text
 application/vnd.example.resource+json; version=2
 ```
 
 Media type _after_ a breaking change:
 
-```
+```text
 application/vnd.example.resource+json; version=3
 ```
 
@@ -97,6 +97,4 @@ API description \(OAS2\) files demonstrating a proposal of an backward-incompati
 #### Recommended Reading
 
 * [Evolving HTTP APIs](https://www.mnot.net/blog/2012/12/04/api-evolution)
-
-
 

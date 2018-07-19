@@ -1,12 +1,14 @@
 # Foreign Key Relations
 
 ## Link or Embed Foreign Key Relation
-When a resource representation includes relation with another (foreign) resource, the relation **MUST** be expressed as a link relation or embed the related resource.
 
-#### Example 
+When a resource representation includes relation with another \(foreign\) resource, the relation **MUST** be expressed as a link relation or embed the related resource.
+
+### Example
+
 Use:
 
-```json
+```javascript
 {
   "_links": {
     "author": { "href": "/users/john" }
@@ -18,7 +20,7 @@ Use:
 
 or:
 
-```json
+```javascript
 {
   ...
   "_embedded": {
@@ -33,7 +35,7 @@ or:
 
 instead:
 
-```json
+```javascript
 {
   ...
   "authorHref": "/users/john"
@@ -41,12 +43,14 @@ instead:
 ```
 
 ## Nest Foreign Key Relation
+
 If a foreign object has another identifier, but URI or the foreign object isn't a resource, the object **MUST** be nested.
 
-#### Example
+### Example
+
 Use:
 
-```json
+```javascript
 {
   "author": {
     "id": "1234",
@@ -58,10 +62,11 @@ Use:
 
 instead:
 
-```json
+```javascript
 {
   "authorId": "1234"
 }
 ```
 
-> NOTE: As a rule of thumb, in an HTTP message body, there SHOULD NOT be any field with trailing "_id," "_href," "_url" etc. in its name.
+> NOTE: As a rule of thumb, in an HTTP message body, there SHOULD NOT be any field with trailing "\_id," "\_href," "\_url" etc. in its name.
+

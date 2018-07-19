@@ -1,11 +1,12 @@
 # Pagination
+
 A collection resource **SHOULD** provide the [`first`, `last`, `next` and `prev` link](https://tools.ietf.org/html/rfc5988#section-6.2.2)s for navigation within the collection.
 
-#### Example
+## Example
+
 The Collection of Orders using the collection navigation link and `offset` and `limit` query parameters:
 
-
-```json
+```javascript
 {
   "_links": {
     "self": { "href": "/orders?offset=100&limit=10" },
@@ -19,9 +20,10 @@ The Collection of Orders using the collection navigation link and `offset` and `
     "order": [
       { ... },
       { ... },
-      
+
       ... 
     ]
   }
 }
 ```
+

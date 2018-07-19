@@ -1,5 +1,6 @@
 # Acknowledgements
-This work is partly based on the work of many talented individuals and exceptional organizations. Namely (but not exclusive to):
+
+This work is partly based on the work of many talented individuals and exceptional organizations. Namely \(but not exclusive to\):
 
 * [Mike Amundsen](http://amundsen.com/)
 * [Wesley Beary](http://geemus.com/) & [Heroku API Team](https://www.heroku.com/)
@@ -13,5 +14,4 @@ This work is partly based on the work of many talented individuals and exception
 * [Facebook Graph API Team](https://developers.facebook.com/docs/graph-api/)
 * [Subbu Allamaraju: RESTFul Web Services Cookbook](http://shop.oreilly.com/product/9780596801694.do)
 * [Paolo De Lucia](https://www.linkedin.com/in/paolodelucia/)
-
 

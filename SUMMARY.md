@@ -1,4 +1,4 @@
-# Summary
+# Table of contents
 
 * [Introduction](README.md)
 * [Core Principles](core-principles/README.md)
@@ -33,7 +33,7 @@
   * [JSON](evolution/json.md)
   * [Changes and Versioning](evolution/versioning.md)
   * [URI Structure](evolution/uri-structure.md)
-  * [Testing Enviroments](execution/testing-enviroments.md)
+  * [Testing Enviroments](evolution/testing-enviroments.md)
 * [Execution](execution/README.md)
   * [Pagination](execution/pagination.md)
   * [Asynchronous Tasks](execution/asynchronous-tasks.md)
